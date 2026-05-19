@@ -1,0 +1,155 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>For Alifah Atika 💗</title>
+
+  <!-- FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- FLOWERS -->
+<div class="flowers">
+  🌸 🌷 💮 🌸 🌷
+</div>
+
+<!-- MAIN BOOK -->
+<div class="book">
+
+  <!-- PAGE 1 -->
+  <div class="page active" id="page1">
+
+    <p class="mini-text">
+      a little gift for you 🌷
+    </p>
+
+    <h1>Happy Birthday</h1>
+
+    <h2>Alifah Atika 💗</h2>
+
+    <!-- FOTO -->
+    <img src="alifah.jpeg" class="photo">
+
+    <p class="typing-text">
+      today is all about you ✨
+    </p>
+
+    <!-- MUSIC -->
+    <p class="music-text">
+      tap this for better experience 🎧
+    </p>
+
+    <button class="music-btn" onclick="playMusic()">
+      play still with you 🎵
+    </button>
+
+    <br>
+
+    <!-- NEXT -->
+    <button onclick="nextPage(1)">
+      open the book 💌
+    </button>
+
+  </div>
+
+
+  <!-- PAGE 2 -->
+  <div class="page" id="page2">
+
+    <h3>for alifah 🌸</h3>
+
+    <p>
+      selamat ulang tahun yaa 🫶
+      <br><br>
+
+      semoga di umur yang sekarang,
+      hidup kamu dipenuhi banyak hal baik,
+      langkah kamu dipermudah,
+      dan semua yang kamu semogakan bisa tercapai satu-satu ✨
+      <br><br>
+
+      semoga bahagia selalu nemuin kamu,
+      dan semoga dunia selalu baik sama kamu 💐
+    </p>
+
+    <div class="buttons">
+      <button onclick="prevPage(2)">back</button>
+      <button onclick="nextPage(2)">next 🌷</button>
+    </div>
+
+  </div>
+
+
+  <!-- PAGE 3 -->
+  <div class="page" id="page3">
+
+    <h3>a little reminder 💖</h3>
+
+    <p>
+      jangan terlalu keras sama diri sendiri yaa,
+      karena kamu udah hebat sampai sejauh ini 🌸
+      <br><br>
+
+      mungkin hari-hari kamu gak selalu mudah,
+      tapi semoga kamu selalu punya alasan buat tetap senyum ✨
+      <br><br>
+
+      thank you for existing,
+      and thank you for being you 🌷
+    </p>
+
+    <div class="buttons">
+      <button onclick="prevPage(3)">back</button>
+      <button onclick="nextPage(3)">next 💌</button>
+    </div>
+
+  </div>
+
+
+  <!-- PAGE 4 -->
+  <div class="page" id="page4">
+
+    <h3>one more thing 🎀</h3>
+
+    <p>
+      semoga tahun ini jadi salah satu tahun terbaik buat kamu 💗
+      <br><br>
+
+      semoga semua hal baik pelan-pelan datang,
+      dan semoga semua luka berubah jadi bahagia 🌷
+      <br><br>
+
+      once again...
+      <br><br>
+
+      happy birthday,
+      alifah atika 🎂💖
+    </p>
+
+    <div class="buttons">
+      <button onclick="prevPage(4)">back</button>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- MUSIC -->
+<audio id="bg-music" loop>
+  <source src="stillwithyou.mp3" type="audio/mp3">
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
